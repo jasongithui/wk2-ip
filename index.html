@@ -12,7 +12,6 @@
 <body>
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="css/images/nav.png"></a>
            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
               <span class="navbar-toggle-icon"></span>
            </button>
@@ -25,7 +24,7 @@
                        <a class="nav-link" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                       <a class="nav-link" href="#">Fill</a>
+                       <a class="nav-link" href="#">Form</a>
                     </li>
               </ul> 
         </div>
@@ -39,8 +38,35 @@
 
 
 
-
-
-
+<!-------Form Section-------->
+<div class="container">
+  <div class="jumbotron">
+    <form class="form-horizontal">
+       <div class="resulted">
+          <p id="result"></p>
+       </div>
+           <div class="form-group">
+              <label for="year">Year Of Birth</label>
+                 <input type="number" class="form-control" id="year" min="1" placeholder="Year of birth Eg,1999" required>   
+            </div>
+                 <div class="form-group">
+                   <label for="month">Month of birth</label>
+                      <input type="number" class="form-control" id="month" min="1" placeholder="Month of birth Eg,12" required>
+                 </div>
+                   <div class="form-group">
+                        <label for="day">Day Of Birth</label>
+                             <input type="number" class="form-control" min="1" id="day" placeholder="Day of birth Eg,7" required>
+                   </div>
+                      <div id="gender"  class="checkbox">
+                            Male<input type="radio" value="male" id="male" name="gender">
+                            Female<input type="radio" value="female" id="female" name="gender">
+                       </div>
+                           <div>
+                              <input type="button" value="submit" onclick="ghanaName();" class="btn btn-primary">
+                              <input type="reset" value="Reset">
+                          </div>
+         </form>
+     </div>
+</div>
 </body>
 </html>
