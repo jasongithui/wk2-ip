@@ -1,6 +1,7 @@
 #### By **Jason Githui**
 ## Description
 This project demonstrates different Akan names and how to generate one.
+To view this website,use this link https://jasongithui.github.io/wk2-ip/
 ## Setup/Installation Requirements
 * Fill in your year of birth
 * Fill in your month of birth
