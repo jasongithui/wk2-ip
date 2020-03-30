@@ -13,115 +13,101 @@
 </head>
 <body>
     <div id="nav-bar">
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-           <ul>
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+         <ul>
             <li><i class="fa fa-adn"></i></li>
+         </ul>
+           <ul class="navbar-nav ml-auto">
+              <li>
+                <a class="nav-link" href="#">Home</a>
+              </li>   
            </ul>
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                   <a class="nav-link" href="#">Home</a>
-                        </li>   
-                    </ul>
-                    </div>
-                    </div>
-        </div>
-     </div>
+         </div>
   </nav>
      <div class="container">
        <div class="jumbotron">
-                <h1>Akan Naming System</h1>
-           <p id="akan">This name generator will give you 10 random Akan names and meanings.</p>
-        </div>
-        </div>
-    
+          <h1>Akan Naming System</h1> 
+            <p>This name generator will give you 10 random Akan names and meanings.</p>
+       </div>
+     </div>
         <div class="container-fluid">
             <div class="jumbotron">
-           <p> The Akans are a meta-ethnicity who primarily live in Ghana and Ivory Coast with a population of around 20 million people. As a meta-ethnicity they share a lot of common traits, but there are various sub-groups related mostly to language and some cultural differences.
+               <p> The Akans are a meta-ethnicity who primarily live in Ghana and Ivory Coast with a population of around 20 million people. As a meta-ethnicity they share a lot of common traits, but there are various sub-groups related mostly to language and some cultural differences.
  Many Akan people were taken as slaves and brought to America, as a result Akan influences can be found in American territories as well, most noticeably in the Caribbean, of which Jamaica has the strongest influences in terms of names..</p>
  <p>On top of that the Akans may also have a middle name which is based on a quality, trait, family member or something else. There are some names in this generator which are part of this system, most noticeably the names related to where and/or how the birth took place.</p>
  <p>The Akans have a fairly unique naming system, which is based on the day a child is born, and on the gender of the child. So a boy born on a Monday would be named Kwadwo or Koho, and a girl would be called Adwoa. Each day has one or more variants, but there's usually not much to choose from.</p>
  <p>This is a webpage that allows users to enter their birthdates,their gender and once submit is clicked,the Akam
      name is displayed.Here are Ghanian day names.</p>
            </div>
-           </div>
+        </div>
            <div class="container">
-     <div class="row">
-        <div class="col-md-4">
-          <div class="card-card-info">
-            <div class="card-heading">
-                <ul>
-                
-                    <label for="male">Male</label>
-                    
-                    <li>Sunday:Kwasi</li>
-                    <li>Monday:Kwadwo</li>
-                    <li>Tuesday:Kwabena</li>
-                    <li>Wednesday:Kwaku</li>
-                    <li>Thursday:Yaw</li>
-                    <li>Friday:Kofi</li>
-                    <li>Saturday:Kwame</li>
-                </ul>
-           </div>
-         </div>
-     </div>
-     <div class="row">
-        <div class="col-md-4">
-            <div class="card-card-info">
-              <div class="card-heading">
-                <ul>
-                    
-                    <label for="female">Female</label>
-                
-                    <li>Sunday:Akosua</li>
-                    <li>Monday:Adwoa</li>
-                    <li>Tuesday:Abenaa</li>
-                    <li>Wednesday:Akua</li>
-                    <li>Thursday:Yaa</li>
-                    <li>Friday:Afua</li>
-                    <li>Saturday:Ama</li>
-                </ul>
+             <div class="row">
+               <div class="col-md-4">
+                 <div class="card-card-info">
+                    <div class="card-heading">
+                       <ul>
+                          <label for="male">Male</label>
+                            <li>Sunday:Kwasi</li>
+                            <li>Monday:Kwadwo</li>
+                            <li>Tuesday:Kwabena</li>
+                            <li>Wednesday:Kwaku</li>
+                            <li>Thursday:Yaw</li>
+                            <li>Friday:Kofi</li>
+                            <li>Saturday:Kwame</li>
+                       </ul>
+                    </div>
+                </div>
+            </div>
+              <div class="row">
+                 <div class="col-md-4">
+                    <div class="card-card-info">
+                       <div class="card-heading">
+                          <ul>
+                             <label for="female">Female</label>
+                               <li>Sunday:Akosua</li>
+                               <li>Monday:Adwoa</li>
+                               <li>Tuesday:Abenaa</li>
+                               <li>Wednesday:Akua</li>
+                               <li>Thursday:Yaa</li>
+                               <li>Friday:Afua</li>
+                               <li>Saturday:Ama</li>
+                          </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
-</div>
-
-
-
-
-
-
 <!-------Form Section-------->
-<div class="container">
-  <div class="jumbotron">
-      <div id="Form">
-    <form class="form-horizontal">
-       <div class="resulted">
-          <p id="result"></p>
-       </div>
-           <div class="form-group">
-              <label for="year">Year Of Birth</label>
-                 <input type="number" class="form-control" id="year" min="1" placeholder="Year of birth" required>   
-            </div>
-                 <div class="form-group">
-                   <label for="month">Month of birth</label>
-                      <input type="number" class="form-control" id="month" min="1" placeholder="Month of birth" required>
-                 </div>
-                   <div class="form-group">
-                        <label for="day">Day Of Birth</label>
-                             <input type="number" class="form-control" min="1" id="day" placeholder="Day of birth" required>
-                   </div>
-                      <div id="gender"  class="checkbox">
-                            Male<input type="radio" value="male" id="male" name="gender">
-                            Female<input type="radio" value="female" id="female" name="gender">
-                       </div>
-                           <div>
-                              <input type="button" value="submit" onclick="ghanaName();" class="btn btn-primary">
-                              <input type="reset" value="Reset">
-                          </div>
-         </form>
-     </div>
-</div>
-</div>
-</body>
+           <div class="container">
+               <div class="jumbotron">
+                  <div id="Form">
+                     <form class="form-horizontal">
+                        <div class="resulted">
+                           <p id="result"></p>
+                        </div>
+                           <div class="form-group">
+                              <label for="year">Year Of Birth</label>
+                                 <input type="number" class="form-control" id="year" min="1" placeholder="Year of birth" required>   
+                           </div>
+                              <div class="form-group">
+                                 <label for="month">Month of birth</label>
+                                    <input type="number" class="form-control" id="month" min="1" placeholder="Month of birth" required>
+                              </div>
+                                  <div class="form-group">
+                                     <label for="day">Day Of Birth</label>
+                                       <input type="number" class="form-control" min="1" id="day" placeholder="Day of birth" required>
+                                  </div>
+                                    <div id="gender"  class="checkbox">
+                                       Male<input type="radio" value="male" id="male" name="gender">
+                                       Female<input type="radio" value="female" id="female" name="gender">
+                                    </div>
+                                       <div>
+                                          <input type="button" value="submit" onclick="ghanaName();" class="btn btn-primary">
+                                          <input type="reset" value="Reset">
+                                       </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </body>
 </html>

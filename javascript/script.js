@@ -25,10 +25,10 @@ function ghanaName(){
         alert("Please enter your gender!");     
     }
     else if (male.checked == true){
-        result.innerHTML ="Your Ghanaian name is " + maleNames[birthDay] +  " since you were born on a " + days[birthDay];
+        result.innerHTML ="Your Ghanian name is " + maleNames[birthDay] +  " since you were born on a " + days[birthDay];
     } 
     else if (female.checked == true){
-        result.innerHTML = "Your Ghanaian name is " + femaleNames[birthDay] +  " since you were born on a " + days[birthDay];
+        result.innerHTML = "Your Ghanian name is " + femaleNames[birthDay] +  " since you were born on a " + days[birthDay];
     } 
     else {
         alert("Error");
