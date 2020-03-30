@@ -7,40 +7,44 @@
     <link rel="icon" type="g.png" href="css/images/g.png">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="bs/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="javascript/script.js"></script>
+
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-      <div class="container-fluid">
-        <h1>Akan Naming System</h1>
-           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-              <span class="navbar-toggle-icon"></span>
-           </button>
-              <div class="collapse navbar-collapse" id="navbar-responsive">
+    <div id="nav-bar">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+           <ul>
+            <li><i class="fa fa-adn"></i></li>
+           </ul>
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
                     <li class="nav-item">
-                       <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                       <a class="nav-link" href="#">Form</a>
-                    </li>
-              </ul> 
+                   <a class="nav-link" href="#">Home</a>
+                        </li>   
+                    </ul>
+                    </div>
+                    </div>
         </div>
      </div>
   </nav>
-
-  <p>This name generator will give you 10 random Akan names and meanings.</p>
-</div>
-   <p> The Akans are a meta-ethnicity who primarily live in Ghana and Ivory Coast with a population of around 20 million people. As a meta-ethnicity they share a lot of common traits, but there are various sub-groups related mostly to language and some cultural differences.
+     <div class="container">
+       <div class="jumbotron">
+                <h1>Akan Naming System</h1>
+           <p id="akan">This name generator will give you 10 random Akan names and meanings.</p>
+        </div>
+        </div>
+    
+        <div class="container-fluid">
+            <div class="jumbotron">
+           <p> The Akans are a meta-ethnicity who primarily live in Ghana and Ivory Coast with a population of around 20 million people. As a meta-ethnicity they share a lot of common traits, but there are various sub-groups related mostly to language and some cultural differences.
  Many Akan people were taken as slaves and brought to America, as a result Akan influences can be found in American territories as well, most noticeably in the Caribbean, of which Jamaica has the strongest influences in terms of names..</p>
  <p>On top of that the Akans may also have a middle name which is based on a quality, trait, family member or something else. There are some names in this generator which are part of this system, most noticeably the names related to where and/or how the birth took place.</p>
  <p>The Akans have a fairly unique naming system, which is based on the day a child is born, and on the gender of the child. So a boy born on a Monday would be named Kwadwo or Koho, and a girl would be called Adwoa. Each day has one or more variants, but there's usually not much to choose from.</p>
  <p>This is a webpage that allows users to enter their birthdates,their gender and once submit is clicked,the Akam
      name is displayed.Here are Ghanian day names.</p>
-
+           </div>
+           </div>
+           <div class="container">
      <div class="row">
         <div class="col-md-4">
           <div class="card-card-info">
@@ -80,7 +84,7 @@
         </div>
     </div>
 </div>
-
+</div>
 
 
 
@@ -90,6 +94,7 @@
 <!-------Form Section-------->
 <div class="container">
   <div class="jumbotron">
+      <div id="Form">
     <form class="form-horizontal">
        <div class="resulted">
           <p id="result"></p>
@@ -116,6 +121,7 @@
                           </div>
          </form>
      </div>
+</div>
 </div>
 </body>
 </html>
